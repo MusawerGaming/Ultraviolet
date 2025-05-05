@@ -22,7 +22,9 @@
 		"format": "prettier --config .prettierrc.js --write .",
 		"lint": "eslint ./src/",
 		"lint:fix": "eslint ./src/ --fix",
-		"postinstall": "pnpm install --no-frozen-lockfile"
+		"postinstall": "pnpm install --no-frozen-lockfile",
+		"preinstall": "pnpm add -g pnpm"
+
 
 	},
 	"devDependencies": {
