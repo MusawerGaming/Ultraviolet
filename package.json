@@ -21,7 +21,9 @@
 		"prepack": "npm run build",
 		"format": "prettier --config .prettierrc.js --write .",
 		"lint": "eslint ./src/",
-		"lint:fix": "eslint ./src/ --fix"
+		"lint:fix": "eslint ./src/ --fix",
+		"postinstall": "pnpm install --no-frozen-lockfile"
+
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3.3.0",
